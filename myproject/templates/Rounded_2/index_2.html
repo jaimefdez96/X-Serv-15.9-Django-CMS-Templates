@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>ContenidosRandom2.0</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="static/style.css" />
+</head>
+<body>
+	<div id="wrapper">
+		<div id="top">
+		</div>
+		<div id="content">
+			<div id="header">
+			Contenidos Random 2.0
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="/">Version 1.0</a></li>
+                                        <li><a href="{{ resource }}">{{ log_status }}</a></li>
+				</ul>
+			</div>
+			<div id="stuff">
+                            <h2>
+                                {{ content | safe }}
+                            </h2>
+			<br /><br />
+                             <h3> 
+                                 Hecho por Jaime Fernandez Sanchez
+                             </h3>
+			</div>
+		</div>
+		<div id="bottom">
+		</div>
+	</div>
+</body>
+</html>
